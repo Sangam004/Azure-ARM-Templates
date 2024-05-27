@@ -1,0 +1,11 @@
+A Windows virtual machine (VM) along with the necessary dependent resources such as a virtual network, 
+network interface, public IP address, and storage account. This template assumes deploying it to Azure.
+
+This ARM template will create:
+
+A virtual network with a subnet.
+A public IP address.
+A network interface.
+A storage account.
+A Windows virtual machine using the specified admin username and password, and attaching it to the previously created resources.
+You can customize parameters like VM size, location, and administrator credentials according to your requirements.
